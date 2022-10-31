@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/amirregmi.github.io/static/css/main.d2eeb799.css",
+    "main.js": "/amirregmi.github.io/static/js/main.70c66601.js",
+    "static/js/787.128fc6e9.chunk.js": "/amirregmi.github.io/static/js/787.128fc6e9.chunk.js",
+    "index.html": "/amirregmi.github.io/index.html",
+    "main.d2eeb799.css.map": "/amirregmi.github.io/static/css/main.d2eeb799.css.map",
+    "main.70c66601.js.map": "/amirregmi.github.io/static/js/main.70c66601.js.map",
+    "787.128fc6e9.chunk.js.map": "/amirregmi.github.io/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2eeb799.css",
+    "static/js/main.70c66601.js"
+  ]
+}

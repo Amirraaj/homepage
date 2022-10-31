@@ -1,0 +1,94 @@
+.frame {
+    position: relative;
+    display: inline-block;
+  }
+  .frame img {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 300px;
+    left: -40px;
+  }
+  
+  .circle {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      background:#d902ee;
+  }
+  .circle-bottom {
+      position: absolute;
+      z-index: 2;
+      left: 0;
+      top: 125px;
+      width: 250px;
+      height: 210px;
+      background-image: -webkit-radial-gradient(
+          50% 0%,
+          circle closest-corner, /* keep radius to half height */
+          transparent 0, /* transparent at center */
+          transparent 125px, /*transparent at edge of gap */
+          #320d3e 101px, /* start circle "border" */
+          #320d3e 102px /* end circle border and begin color of rest of background */
+      );
+  }
+
+ @media (min-width: 640px) {  
+    .circle{
+        width:400px;
+        height: 400px;
+    }
+    .frame img {
+        left: -44px;
+        width: 466px;
+    }
+    .circle-bottom{
+        top: 200px;
+        width: 400px;
+        background-image: -webkit-radial-gradient(
+            50% 0%,
+            circle closest-corner, /* keep radius to half height */
+            transparent 0, /* transparent at center */
+            transparent 200px, /*transparent at edge of gap */
+            #320d3e 101px, /* start circle "border" */
+            #320d3e 102px /* end circle border and begin color of rest of background */
+        );
+    }
+ }
+
+ @media only screen and (min-width: 830px) and (max-width: 1330px) {
+    .semi-circle{
+        width: 300px ;
+        height: 300px;
+    }
+    .name{
+     @apply text-2xl
+    }
+    .data-holder{
+        @apply left-32 top-20
+    }
+
+    .container{
+        @apply gap-5 
+    }
+    .circle{
+        width:300px;
+        height: 300px;
+    }
+    .frame img {
+        left: -44px;
+        width: 360px;
+    }
+    .circle-bottom{
+        top: 150px;
+        width: 300px;
+        background-image: -webkit-radial-gradient(
+            50% 0%,
+            circle closest-corner, /* keep radius to half height */
+            transparent 0, /* transparent at center */
+            transparent 150px, /*transparent at edge of gap */
+            #320d3e 101px, /* start circle "border" */
+            #320d3e 102px /* end circle border and begin color of rest of background */
+        );
+    }
+}

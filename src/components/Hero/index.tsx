@@ -42,7 +42,7 @@ function Hero() {
         <Fade cascade  direction={"right"} >
         <div className="frame mt-0 mt-64 sm:mt-32 sm:mb-32 order-first md:order-last relative">
           <div className="circle"></div>
-          <img src="/Image/Amir.png" alt="Amir" className=" max-w-none "
+          <img src="Image/Amir.png" alt="Amir" className=" max-w-none "
           />
           <div className="circle-bottom"></div>
         </div>

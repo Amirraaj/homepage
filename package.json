@@ -1,8 +1,8 @@
 {
   "name": "my_portfolio",
-  "homepage": "https://amirraaj.github.io/amirregmi.github.io/",
+  "homepage": "https://amirraaj.github.io/homepage",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
